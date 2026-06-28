@@ -15,16 +15,16 @@
 ## Anggota & Role
 
 **Anggota 1**
-- Nama Lengkap: `...`
-- NIM: `...`
-- Role: `...`
-- Teknologi: `...`
+- Nama Lengkap: `Arif Alfarisi`
+- NIM: `230705080`
+- Role: `FronEnd`
+- Teknologi: `React Js`
 
 **Anggota 2**
-- Nama Lengkap: `...`
-- NIM: `...`
-- Role: `...`
-- Teknologi: `...`
+- Nama Lengkap: `Nailul amal`
+- NIM: `230705078`
+- Role: `BackEnd`
+- Teknologi: `Laravel`
 
 ---
 
