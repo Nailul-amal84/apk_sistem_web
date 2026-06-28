@@ -1,0 +1,55 @@
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --color-ungu-gelap-50: #f7f4fa;  /* Teks kontras tinggi pada latar belakang gelap ekstrem */
+  --color-ungu-gelap-100: #eee7f5; /* Teks sekunder untuk elemen gelap */
+  --color-ungu-gelap-200: #dbcee9; /* Border halus atau state disabilitas */
+  --color-ungu-gelap-300: #beabd4; /* Aksen teks redup */
+  --color-ungu-gelap-400: #9c80ba; /* Komponen sekunder / ikon */
+  --color-ungu-gelap-500: #7b599f; /* Warna ungu murni penyeimbang */
+  --color-ungu-gelap-600: #624283; /* Aksen tombol / interaksi hover */
+  --color-ungu-gelap-700: #4e336a; /* Batas border komponen / kartu gelap */
+  --color-ungu-gelap-800: #3b2551; /* Latar belakang kartu (Card / Sidebar / Modal) */
+  --color-ungu-gelap-900: #1b1026; /* Latar belakang dasar aplikasi (Base Deep Purple) */
+  --color-ungu-gelap-950: #0f0717; /* Latar belakang ekstrem (Sangat dekat dengan hitam) */
+
+  /* Rumpun Warna HIJAU */
+  --color-hijau-uin: #008001;
+  --color-hijau-botol: #0B4A14;
+  --color-hijau-zamrud: #00A859;
+  --color-hijau-lumut: #3A7D44;
+  --color-sage: #87A987;
+  --color-olive: #556B2F;
+  --color-forest-khaki: #4A5D4E;
+
+  /* Rumpun Warna KUNING & EMAS */
+  --color-kuning-emas: #FFD700;
+  --color-emas-gelap: #C69214;
+  --color-soft-ochre: #EAE15B;
+
+  /* Rumpun Warna AKSEN JINGGA & MERAH */
+  --color-terracotta: #C85A32;
+  --color-burnt-orange: #E07A5F;
+  --color-dusty-rose: #D4A373;
+
+  /* Rumpun Warna BIRU & TEAL */
+  --color-toska-tua: #0B5257;
+  --color-deep-teal: #005C53;
+
+  /* Rumpun Warna NETRAL TERANG */
+  --color-putih-bersih: #FFFFFF;
+  --color-mint-lembut: #EAF5EC;
+  --color-cream: #FFFEE0;
+  --color-warm-sand: #D2B48C;
+  --color-champagne: #F7E7CE;
+  --color-pale-eucalyptus: #B5C99A;
+
+  /* Rumpun Warna NETRAL GELAP */
+  --color-charcoal: #1A1A1A;
+  --color-dark-slate: #2F4F4F;
+  --color-abu-perak: #E5E5E5;
+}
+
