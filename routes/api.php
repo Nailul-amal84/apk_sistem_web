@@ -16,8 +16,10 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/user', function (Request $request) {
         return $request->user();
     });
-    
+
     Route::get('/jenis-surat', [JenisSuratController::class, 'index']);
+    // halaman yang mengguankan service ini mengirim data ke url /template
+    Route::get('/template', [JenisSuratController::class, 'template']);
     Route::post('/surat', [SuratPengajuanController::class, 'store']);
     Route::get('/surat/riwayat', [SuratPengajuanController::class, 'riwayat']);
     Route::get('/surat/{id}/download', [SuratPengajuanController::class, 'downloadPdf']);
